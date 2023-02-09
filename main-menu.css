@@ -1,0 +1,17 @@
+main-menu {
+    display: inline-block;
+}
+
+main-menu > ul {
+    display: flex;
+    gap: 20px;
+}
+
+main-menu li:not(:hover) > ul {
+    display: none;
+}
+
+main-menu li > ul {
+    position: absolute;
+    background-color: lightgreen;
+}
